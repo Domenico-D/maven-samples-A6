@@ -14,9 +14,9 @@ pipeline {
  		      sh "git bisect reset"
      	}
     }
+  }
   tools { 
       maven 'DHT_MVN' 
       jdk 'DHT_SENSE' 
-  }
   }
 }
